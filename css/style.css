@@ -1,0 +1,1091 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 0px;
+
+}
+
+/*a,a:hover{
+	text-decoration: none;
+}*/
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+}
+
+   /*header-section CSS*/
+
+.header-section{
+	width: 100%;
+	
+}
+
+.top-header{
+	width: 100%;
+	background: #f5f7fa;
+	padding: 8px 0px;
+}
+
+.top-header .info-inner{
+	display: block;
+	margin: 0px;
+}
+
+
+.top-header .info-inner li{
+	list-style: none;
+	display: inline-block;
+	
+}
+
+
+.top-header .info-inner li a{
+	font-size: 14px;
+	font-weight: 500;
+	color: #506a85;
+	margin-right: 15px;
+
+
+}
+.top-header .info-inner li a:hover{
+	text-decoration: none !important;
+}
+
+.top-header .info-inner li a .fa{
+	margin-right: 7px;
+	transition: .4s;
+}
+
+.top-header .fa-facebook:hover{
+	color: #4063AA;
+
+	
+}
+
+.top-header .fa-google-plus:hover{
+	color: #DD5144;
+	
+}
+
+.top-header .fa-twitter:hover{
+	color: #2CAAE1;
+	
+}
+
+.top-header .fa-pinterest:hover{
+	color: #CA2128;
+	
+}
+
+.top-header .fa-behance:hover{
+	color: #053EFF;
+	
+}
+
+.top-header .fa-dribbble:hover{
+	color: #EA4C89;
+	
+}
+
+
+
+
+
+.top-header .social-icons{
+	text-align: right;
+	display: block;
+	margin: 0px;
+}
+
+
+.top-header .social-icons li{
+	display: inline-block;
+	list-style: none;
+}
+
+
+.top-header .social-icons li a{
+	font-size: 16px;
+	color: #506a85;
+	margin: 0px 0px 0px 15px;
+
+}
+
+.header-section .bg-light{
+	background: #fff !important;
+	padding: 10px 0px;
+	/*position: relative;*/
+}
+
+
+
+.header-section .navbar-expand-lg .navbar-nav {
+    
+    margin-left: 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px 12px;
+    transition: .4s;
+}
+
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+	color: #506a85;
+    font-weight: 400;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:focus,
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+    color: #00bc9c;
+}
+
+.header-section .right-search .fa {
+    color: #506a85;
+}
+
+   /*carousel start here*/
+
+.slider{
+	width: 100%;
+}
+
+.slider .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 35.33%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.slider .carousel-caption h2{
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 74px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.slider .carousel-caption p{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #a3b1bf;
+
+}
+.slider .carousel-caption .btn-info{
+	background: #00bc9c;
+	padding: 10px 35px;
+	margin-top: 25px;
+	border-radius: 2px;
+	border: 1px solid #00bc9c;
+	color: #fff;
+	font-weight: 500;
+
+}
+
+.slider .carousel-caption .btn-info:focus, .slider .carousel-caption .btn-info:hover{
+	background: transparent;
+}
+
+/*carousel end here*/
+
+
+/*who-we-are*/
+
+.who-we-are{
+	width: 100%;	
+	padding: 65px 0px;
+}
+.who-we-are .title{
+	width: 100%;
+	text-align: center;
+}
+
+.who-we-are .title h2{
+	font-size: 30px;
+	font-weight: 700;
+	color: #506a85;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+
+.who-we-are .title p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #a3b1bf;
+	margin-bottom: 3rem;
+}
+
+.who-we-are .media-body {
+    padding: 0px 5px;
+}
+
+.who-we-are .media-body h6{
+	font-size: 22px;
+	font-weight: 575;
+	color: #506a85;
+}
+
+.who-we-are .media-body p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #73879c;
+}
+
+
+
+
+
+.works{
+	width: 100%;
+	background: #f2f5f7;
+	padding: 80px 0px;
+}
+
+.works .title{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 35px;
+}
+
+.works .title h2{
+	font-size: 30px;
+	font-weight: 600;
+	color: #506a85;
+	margin-bottom: 15px;
+}
+.works .title p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #73879c;
+	margin-bottom: 3rem;
+}
+
+.works .card{
+	/*width: 100%;*/
+	text-align: center;
+	margin-bottom: 50px;
+}
+.works .card-img-top {
+    border-radius: 0px !important;
+    margin-bottom: 5px;
+}
+
+.works .card .card-body{
+
+}
+
+.works .card .card-body .card-title{
+	font-size: 15px;
+	font-weight: 600;
+	color: #506a85;
+}
+
+.works .card .card-body .card-text{
+	font-size: 14px;
+	font-weight: 400;
+	color: #9ca9b7;
+}
+
+
+.works .owl-theme .owl-dots .owl-dot.active span, .works .owl-theme .owl-dots .owl-dot:hover span{
+	background: #00bc9c;
+}
+
+.works .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 25px;
+}
+
+
+
+
+
+
+.get-in-touch{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.get-in-touch .title{
+	text-align: center;
+}
+
+.get-in-touch .title h2{
+	font-size: 35px;
+	font-weight: 600;
+	color: #506a85;
+	margin-bottom: 15px;
+}
+
+
+.get-in-touch .title p{
+	font-size: 15px;
+	font-weight: 500;
+	color: #73879c;
+	margin-bottom: 2rem;
+}
+
+.get-in-touch .title .btn-info{
+	text-transform: uppercase;
+	background: #00bc9c;
+	padding: 8px 27px;
+	border-radius: 2px;
+	border: 1px solid #00bc9c;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: 500;
+}
+
+.get-in-touch .title .btn-info:hover{
+	background: transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+	transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+.footer-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #2f4052;
+}
+
+.footer-section .widget{
+	width: 100%;
+}
+.footer-section .widget h4{
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+.footer-section .widget .flogo{
+	margin-bottom: 15px;
+}
+
+.footer-section .widget p{
+
+	font-size: 14px;
+	font-weight: 400;
+	color: #73879c;
+}
+
+
+.footer-section .link{
+	font-size: 14px;
+	font-weight: 400;
+	color: #a3b1bf;
+	transition: .4s;
+}
+
+.footer-section .widget .fa{
+	margin-left: 10px;
+}
+
+.footer-section .widget .no-marr{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.footer-section .link:hover{
+	text-decoration: none!important;
+	color: #00bc9c;
+}
+
+.footer-section .widget .card-group{
+	margin-bottom: 10px;
+}
+
+.footer-section .widget .card-img, .card-img-top {
+     border-top-left-radius: 0px !important; 
+     border-top-right-radius: 0px !important; 
+}
+
+.footer-section .widget .card{
+	border: 0px solid rgba(0,0,0,.125);
+    border-radius: 0px;
+    margin-right: 10px;
+}
+
+.footer-section .widget .fa {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.footer-section .widget-no-marr{
+	margin-top: -7.5px;
+	margin-bottom: 15px;
+}
+
+
+.footer-section .widget .form .mx-sm-3{
+	margin-left: 0px !important;
+}
+
+.footer-section .widget .form .form-control{
+	/*width: 250px;
+	height: 38px;
+	background: #4e5c6c;
+	border: 1px solid #4e5c6c;
+	border-radius: 3px;
+	font-size: 12px;
+	color: #76838f;
+	font-weight: 600;*/
+
+	width: 100%;
+	background: #4e5c6c;
+	border: 1px solid #4e5c6c;
+	border-radius: 3px;
+	font-size: 12px;
+	padding: 18px 4px;
+
+}
+.footer-section .widget .form .mx-sm-3{
+	position: relative;
+}
+
+
+/*.footer-section .widget .form .form-control:focus, .footer-section .widget .form .form-control:active{
+	border: 1px solid #4e5c6c;
+}
+*/
+
+.footer-section .widget .form .btn-info{
+	color: #fff;
+	background: #00bc9c;
+	font-size: 12px;
+	font-weight: 600;
+	border-color: #00bc9c;
+	position: absolute;
+	padding: 4.5px 20px;
+	right: 2%;
+	bottom: 13.5%;
+}
+.footer-section .widget .form .btn-info:hover{
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+	background: transparent;
+}
+
+
+
+.footer-below{
+	width: 100%;
+	background: #283645;
+	padding: 10px 0px;
+}
+
+.footer-below .footer-p{
+	width: 100%;
+	text-align: left;
+
+}
+/*.footer-below .footer-p span{
+	margin-left: 51px;
+}*/
+
+.footer-below .footer-p p{
+	font-size: 14px;
+	font-weight: 500;
+	color: #73879c;
+	margin-top: 17px;
+}
+
+.footer-below .footer-list-items{
+	width: 100%;
+	text-align: right;
+
+	margin-top: 15px;
+
+}
+
+.footer-list-items ul{
+    display: flex;
+    justify-content: space-between; 
+    color: #707e8c;
+}
+.footer-below .footer-list-items li{
+	display: inline-block;	
+}
+
+
+
+.footer-below .footer-list-items ul li a{
+	color: #707e8c;
+	font-size: 14px;
+}
+.footer-below .footer-list-items li a:hover{
+	text-decoration: none;
+}
+
+
+
+/*Portfolio section start*/
+
+
+.portfolios{
+ 	width: 100%;
+ 	background: #f6f9f9;
+ 	padding: 60px 0px;
+ }
+.portfolios .feature-headings{
+ 	width: 100%;
+ 	text-align: center;
+ 	margin-top: 60px;
+
+ }
+.portfolios .feature-headings h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+ 	color: #2d3950;
+ 	
+ }
+.portfolios .feature-headings p{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 14px;
+ 	color: #999999;
+ 	margin-top: 20px;
+ 	margin-bottom: 50px;
+ }
+
+.portfolios .card{
+	width: 100%;
+	margin-bottom: 27px;
+	border-radius: 0px;
+	border: 0px;
+}
+
+
+.portfolios .card .card-img-top{
+	/*-ms-flex-negative: 0;
+	flex-shrink: 0;
+	width: 100%;*/
+	border-top-left-radius: inherit !important;
+	border-top-right-radius: inherit !important;
+}
+
+.portfolios .port-hover{
+	width: 100%;
+    height: 100%;
+	position: absolute;
+	text-align: center;
+	top: 0%;
+	left: 0%;
+	background: rgb(29,156,236, .6);
+	display: none;
+
+}
+
+.portfolios .port-hover .icons{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.portfolios .card:hover .port-hover{
+	display: block;
+
+}
+
+/* Portfolio section end*/
+
+
+.totalemployee{
+	width: 100%;
+	margin: 0px auto;
+}
+
+.totalemployee ul{
+	display: block;
+}
+.totalemployee ul li{
+	display: inline-block;
+	margin: 10px 30px;
+}
+.totalemployee ul li h4{
+	font-size: 25px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 20px
+}
+
+.totalemployee ul li span{
+	font-size: 50px;
+    font-weight: 700;
+    color: #00bc9c;
+    margin-bottom: 15px
+}
+
+
+
+
+/************************************************************/
+				/*Responsive Start Here*/
+
+/************************************************************/
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .top-header {
+    	padding: 0px;
+    	/*display: none;*/
+	}
+
+	.top-header .social-icons {
+	    text-align: center;
+	    margin: 0px 0 3px 0;
+	}
+
+	.top-header .info-inner {
+	    margin: 0px;
+	}
+
+	.top-header .social-icons li a {
+	    font-size: 14px;
+	    margin: 0px 13px;
+	}
+
+	.top-header .info-inner li a .fa {
+	    margin-right: 5px;
+	    margin-left: 14px;
+	}
+
+
+	.header-section .bg-light {
+	    padding: 10px 20px 10px 20px;
+	}
+
+
+	.slider .carousel-caption h2 {
+	    font-size: 20px;
+    	line-height: 20px;
+	}
+
+
+	.slider .carousel-caption p {
+	    display: none;
+}
+
+
+	.slider .carousel-caption .btn-info {
+	    padding: 5px 10px;
+	    margin-top: 25px;
+	    font-size: 16px;
+	}
+
+	.slider .carousel-caption {
+	    top: 10px;
+	    padding-top: 10px;
+	    padding-bottom: 0px;
+	    text-align: center;
+	}
+
+	.who-we-are {
+	    padding: 25px 0px;
+	}
+
+	.who-we-are .title h2 {
+	    font-size: 22px;
+	    font-weight: 600;
+	    margin-bottom: 10px;
+	}
+
+	.who-we-are .title p {
+	    margin-bottom: 25px;
+	}
+
+	.works {
+	    padding: 15px 0px;
+	}
+
+	.works .title h2 {
+	    font-size: 24px;
+	    margin-bottom: 5px;
+	    padding-top: 15px;
+	}
+
+	.works .title p {
+	    font-size: 14px;
+	    margin-bottom: 0;
+	}
+
+	.works .card .card-body .card-title {
+	    margin-bottom: 2px;
+	}
+
+	.works .card-body {
+
+	    padding: 8px;
+	}
+
+	.get-in-touch {
+	    padding: 20px 0px;
+	}
+
+	.get-in-touch .title h2 {
+	    font-size: 25px;
+	    margin-bottom: 10px;
+	}
+
+	.get-in-touch .title p {
+	    font-size: 14px;
+	    margin-bottom: 15px;
+	}
+
+	.get-in-touch .title .btn-info {
+	    border-radius: 2px;
+	    font-size: 14px;
+	    padding: 6px 12px;
+	}
+
+	.footer-section {
+	    padding: 20px 0px;
+	    text-align: center;
+	}
+
+	.footer-section .widget h4 {
+
+	    margin-bottom: 10px;
+	    font-size: 20px;
+	}
+
+	.footer-section .widget .flogo {
+	    display: none;
+	}
+
+	.footer-section .widget p {
+
+	    margin-bottom: 5px;
+	}
+
+	.footer-section .link {
+	    font-size: 14px;
+	    font-weight: 600;
+	    color: #00bc9c;
+	    margin-bottom: 15px;
+    	display: inline-block;
+	}
+
+	.footer-section .widget .card {
+
+	    margin-right: 0px;
+	}
+
+	.footer-below {
+ 
+	    padding: 0px 0px;
+	}
+
+	.footer-below .footer-p p {
+
+	    margin-top: 3px;
+	    margin-bottom: 3px;
+	    text-align: center;
+	}
+
+	.footer-list-items ul{
+		margin-bottom: 3px;
+	}
+	  
+}
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .top-header {
+    	padding: 0px;
+    	/*display: none;*/
+	}
+
+	.top-header .social-icons {
+	    text-align: center;
+	    margin: 0px 0 0px;
+	}
+
+	.top-header .info-inner {
+    margin: 0px;
+    text-align: center;
+	}
+
+	.top-header .social-icons li a {
+	    font-size: 14px;
+	    margin: 0px 18px;
+	}
+
+	.top-header .info-inner li a .fa {
+	    margin-right: 5px;
+	}
+
+
+	.header-section .bg-light {
+	    padding: 10px;
+	}
+
+	.slider .carousel-caption h2 {
+	    font-size: 25px;
+	    line-height: 26px;
+	}
+
+
+	.slider .carousel-caption p {
+	    font-size: 14px;
+	    line-height: 20px;
+}
+
+
+.slider .carousel-caption .btn-info {
+	    padding: 5px 10px;
+	    margin-top: 0px;
+	    font-size: 16px;
+	}
+
+	.slider .carousel-caption {
+	    top: 15px;
+	    padding-top: 10px;
+	    padding-bottom: 0px;
+	    text-align: center;
+	}
+
+
+
+
+
+	.who-we-are {
+	    padding: 35px 0px;
+	}
+
+	.who-we-are .title h2 {
+	    font-size: 30px;
+	    font-weight: 600;
+	    margin-bottom: 12px;
+	}
+
+	.who-we-are .title p {
+	    margin-bottom: 25px;
+	}
+
+	.works {
+	    padding: 30px 0px;
+	}
+
+	.works .title h2 {
+	    font-size: 30px;
+	    margin-bottom: 5px;
+	    padding-top: 15px;
+	}
+
+	.works .title p {
+	    font-size: 14px;
+	    margin-bottom: 0;
+	}
+
+	.works .card .card-body .card-title {
+	    margin-bottom: 2px;
+	}
+
+	.works .card-body {
+
+	    padding: 12px;
+	}
+
+	.get-in-touch {
+	    padding: 30px 0px;
+	}
+
+	.get-in-touch .title h2 {
+	    font-size: 30px;
+	    margin-bottom: 10px;
+	}
+
+	.get-in-touch .title p {
+	    font-size: 14px;
+	    margin-bottom: 15px;
+	}
+
+	.get-in-touch .title .btn-info {
+	    font-size: 15px;
+	    padding: 7px 14px;
+	}
+
+	.footer-section {
+	    padding: 30px 0px;
+	    text-align: center;
+	}
+
+	.footer-section .widget h4 {
+	    margin-bottom: 15px;
+	    font-size: 25px;
+	}
+
+	.footer-section .widget .flogo {
+	    display: none;
+	}
+
+	.footer-section .widget p {
+
+	    margin-bottom: 10px;
+	}
+
+	.footer-section .link {
+	    font-size: 16px;
+	    font-weight: 600;
+	    color: #00bc9c;
+	    margin-bottom: 15px;
+    	display: inline-block;
+	}
+
+	.footer-section .widget .card {
+
+	    margin-right: 0px;
+	}
+
+	.footer-section .widget .form .form-control {
+	    font-size: 16px;
+	}
+
+	.footer-section .widget .form .btn-info {
+
+	    font-size: 14px;
+
+	    bottom: 7.5%;
+	}
+
+	.footer-below {
+ 
+	    padding: 0px 0px;
+	}
+
+	.footer-below .footer-p p {
+
+	    margin-top: 3px;
+	    margin-bottom: 3px;
+	    text-align: center;
+	}
+
+	.footer-list-items ul{
+		margin-bottom: 3px;
+	}
+  
+}
+
+
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) /*and (orientation: landscape)*/ {
+  
+  .top-header .social-icons {
+	    margin: 0px 0 0 100px;
+	}
+
+	.slider .carousel-caption {
+	    bottom: 15.33%;
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+
+	}
+
+	.slider .carousel-caption h2 {
+
+	    font-size: 40px;
+	    line-height: 52px;
+
+	}
+
+	.slider .carousel-caption p {
+	    font-size: 15px;
+	    line-height: 22px;
+	}
+
+	.slider .carousel-caption .btn-info {
+	    padding: 7px 24px;
+	    margin-top: 7px;
+	    font-weight: 500;
+	}
+
+	.who-we-are {
+	    padding: 50px 0px;
+	}
+
+	.works {
+    	padding: 50px 0px;
+	}
+
+	.works .title p {
+	    margin-bottom: 15px;
+	}
+
+	.get-in-touch{
+		padding: 50px 0px;
+	}
+
+	.footer-below{
+		padding: 50px 0px;
+	}
+
+	.footer-section .widget .form .btn-info {
+
+	    font-size: 12px;
+	    padding: 3.5px 4px;
+	    right: 3%;
+	    bottom: 13%;
+	}
+
+	.footer-section .widget .form .form-control {
+
+    font-size: 12px;
+    padding: 18px 4px;
+	}
+
+	.footer-below {
+	    padding: 0px 0px;
+	}
+	  
+}
+
